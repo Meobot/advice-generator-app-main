@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub/advice-api-app-built-with-flexbox-and-js-xFerZF1Ke2)
+- Live Site URL: [Github Page](https://meobot.github.io/advice-generator-app-main/)
 
 ## My process
 I started with the HTML, which was simple enough, then went on to the CSS and learned letter spacing. For the JS, it took some searching to fix the API giving me the same advice, except on refresh. The solution being tieing the fetch to a Math.random method. All in all, a fun and not too difficult project!
