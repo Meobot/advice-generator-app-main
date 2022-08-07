@@ -1,0 +1,81 @@
+:root {
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-blue);
+    font-family: 'Manrope', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#card {
+    background-color: var(--dark-grayish-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 315px;
+    border-radius: 10px;
+}
+
+#advice-number {
+    color: var(--neon-green);
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin: 30px 0px;
+}
+
+#advice-paragraph {
+    color: var(--light-cyan);
+    font-size: 22px;
+    text-align: center;
+    height: 150px;
+    width: 80%;
+}
+
+#pattern-desktop {
+    display: none;
+}
+
+#btn {
+    background-color: var(--neon-green);
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px 0px -30px;
+}
+
+#btn:hover {
+    box-shadow: 0px 0px 10px var(--neon-green);
+}
+
+#btn:active {
+    transform: translateY(2px);
+}
+
+@media screen and (min-width: 600px) {
+    #card {
+        width: 500px;
+    }
+
+    #pattern-desktop {
+        display: block;
+    }
+
+    #pattern-mobile {
+        display: none;
+    }
+
+
+}
